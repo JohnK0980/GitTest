@@ -1,0 +1,4 @@
+일단 td-auto 브랜치는 원격 저장소의 release 브랜치를 가져와서 이를 베이스로 만들어 졌다.
+
+이 후 td-auto 브랜치에 이 파일을 만들고 remote 로 push 한 후 release 브랜치에 머지 되도록 PR 을 만든다.
+
