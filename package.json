@@ -1,5 +1,5 @@
 {
- "name": "Test for Github Actions",
+ "name": "test-for-github-actions",
  "description": "TestCafe Github Actions",
  "version": "0.0.0",
  "scripts": {
