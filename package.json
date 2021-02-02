@@ -1,0 +1,16 @@
+{
+ "name": "Test for Github Actions",
+ "description": "TestCafe Github Actions",
+ "version": "0.0.0",
+ "scripts": {
+   "test": "testcafe chrome *.js --debug-on-fail --reporter html:artifacts/reports/report.html --video artifacts/videos --video-options failedOnly=true  --assertion-timeout 6000 --page-load-timeout 6000 --skip-js-errors",
+   "test:ci": "testcafe chrome:headless *.js -s path=reports,takeOnFails=true --reporter html:reports/report.html  --assertion-timeout 6000 --page-load-timeout 6000 --skip-js-errors"
+ },
+ "devDependencies": {
+   "dotenv": "^8.2.0",
+   "request": "^2.88.2",
+   "request-promise": "^4.2.6",
+   "testcafe": "^1.10.1",
+   "testcafe-reporter-html": "^1.4.6"
+ }
+}
