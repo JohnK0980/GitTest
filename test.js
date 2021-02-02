@@ -5,6 +5,6 @@ fixture `Getting Started`
 
 test('My first test', async t => {
     // Test code
-    console.log('### TEST ###);
+    console.log('### TEST ###');
 });
 
